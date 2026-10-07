@@ -7,13 +7,16 @@
  
 	<style>
 		
-		body { font-family: 'Courier New', Courier, monospace;
-				background-image: url('phone.jpg'); width: "150";}
+		body {background-image: url('phone.jpg');background-size: 1300px;
+		width: 20000px;
+		height: 700px;
+		display: flex;}
 		div {color: rgb(233, 33, 233);}
+		section{font-family: 'Courier New', Courier, monospace;}
 		.quote {font-size: 1rem;}
 		.source{font-style: normal;}
 		.important{background: aqua;}
-		.back{color: rgb(244, 0, 207);}
+		.back{color: rgb(7, 7, 7);}
 
 		.citation {
 			margin: 3rem;
@@ -33,19 +36,27 @@
 
 </head>
 <body>
-	
+	<section>
 	<div class="citation" id="machina">
 		<div class="source "><b>Scott Adams</b></div>
-		<div class="quote style">Ideas are worthless. Execution is <i>everything.</i></div>
+		<div class="quote back style">Ideas are worthless. Execution is <i>everything.</i></div>
 	</div>
 
 	<div class="citation" id="machin">
-		<div class="source back"><b>Lola</b></div>
-		<div class="quote">hey, thats true!</div>
+		<div class="source"><b>Lola</b></div>
+		<div class="quote back">hey, thats true!</div>
 	</div>
+	</section>
 
-	  <li>    <a href="6.30.09.26.html">6th quote</a>
-        </li>
+	 <!-- navigation -->
+    <link rel="stylesheet" href="nav.css">
+    <nav id="panel">
+        <a href="4.citation09.09.26.html">prev</a>
+        <a href="index.html">home</a>
+        <a href="6.30.09.26.html">next</a>
+
+    </nav>
+    <!-- navigation -->
 
  </body>
 

@@ -1,0 +1,23 @@
+/* fonctionnalité/disposition du bloc de navigation */
+nav#panel{
+	border: 1px dotted #6fd1ff;
+	background: #FFF9;
+	max-width: max-content;
+	position: fixed;
+	top: 1rem;
+	left: 1rem;
+	display: flex;
+}
+/* style du bloc de navigation */
+nav#panel a {
+	color: inherit;
+	color: palevioletred;
+	text-decoration: none;
+	padding: 0.5rem;
+}
+nav#panel a:hover{
+	background: palegoldenrod;
+}
+nav#panel a:visited{
+	text-decoration: line-through;
+}

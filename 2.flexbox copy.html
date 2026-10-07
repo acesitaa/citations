@@ -5,20 +5,34 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<style>
-		body { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-				font-size: x-large;
-			background-color: beige;}
+		body { 
+			background-color: beige;
+			padding: 4rem;
+			}
 		
 
 		
 		
-		section{outline: 2px solid rebeccapurple;}
-		div {outline: 2px solid rgb(151, 234, 26);}
-		section, div{margin: 2rem; padding: 2rem;}
+		section{
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				font-size: x-large;
+		background-image: url(mlpsouth.jpg);
+		background-size: 1000px;
+		width: 1500px;
+		height: 700px;}
+		div {outline: 2px solid rgb(151, 234, 26);
+			background-color: aliceblue;}
+		/* section {margin:0rem; padding: 20rem;} */
+		
 
 
 		/* section{display: flex ; gap: 1rem;} */
 		div{flex: 1;}
+		.background-color{ background-color: ivory;}
+		.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}
 
 	</style>
 </head>
@@ -27,14 +41,22 @@
 	<section>
 
 		<div>Christopher Simmons </div>
-		<div>A great logo isn’t going to make a shitty product any less shitty, any more than a hard worker is going to make a bad boss a compelling leader.</div>
 		<!-- <div>wow!</div> -->
 
 	</section>
+		
+	<div class="rainbow-text background-color">A great logo isn’t going to make a shitty product any less shitty, any more than a hard worker is going to make a bad boss a compelling leader.</div>
 
-	<li>    <a href="3.citations02.08.html">3rd quote</a>
-        </li>
-	
+
+	 <!-- navigation -->
+    <link rel="stylesheet" href="nav.css">
+    <nav id="panel">
+        <a href="1.citation26.08.26.html">prev</a>
+        <a href="index.html">home</a>
+        <a href="3.citations02.08.html">next</a>
+
+    </nav>
+    <!-- navigation -->
 	
 </body>
 </html>
